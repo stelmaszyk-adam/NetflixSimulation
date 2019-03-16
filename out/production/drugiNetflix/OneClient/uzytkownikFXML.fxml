@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OneClient.UzytkownikControler">
+   <children>
+      <Label fx:id="FXimie" layoutX="21.0" layoutY="24.0" prefHeight="17.0" prefWidth="178.0" text="Imie: " />
+      <Label fx:id="FXdataurodzenia" layoutX="21.0" layoutY="53.0" prefHeight="17.0" prefWidth="221.0" text="data urodzenia:" />
+      <Label fx:id="FXemail" layoutX="21.0" layoutY="84.0" prefHeight="17.0" prefWidth="178.0" text="email : " />
+      <Label fx:id="FXnumerKarty" layoutX="21.0" layoutY="192.0" prefHeight="30.0" prefWidth="300.0" text="Numer Karty Kredytowej :" />
+      <Label fx:id="FXnumerProduktow" layoutX="30.0" layoutY="246.0" prefHeight="17.0" prefWidth="160.0" text="Numer produktow" />
+      <Label fx:id="FXabonament" layoutX="21.0" layoutY="167.0" prefHeight="17.0" prefWidth="211.0" text="Czy ma Abonament:" />
+      <Label fx:id="FXwykupioneLivy" layoutX="354.0" layoutY="233.0" prefHeight="159.0" prefWidth="241.0" text="Wykupione Live:" />
+      <Label fx:id="FXstartAbonamentu" layoutX="21.0" layoutY="142.0" prefHeight="17.0" prefWidth="269.0" text="Czas startu abonamentu:" />
+      <ImageView fx:id="FXimageView" fitHeight="190.0" fitWidth="221.0" layoutX="331.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
