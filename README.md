@@ -4,3 +4,5 @@ if the new move is in the market, how much customers buy it and how much seler e
 the program ends of working.
 
 For the project I used Java8 and JavaFX for layout.
+
+![](screens/screen1.png)
